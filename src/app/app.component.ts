@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import {FormControl} from '@angular/forms';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material';
+ selected = ''
+ date = new FormControl(new Date());
+  serializedDate = new FormControl(new Date().toISOString());
 }

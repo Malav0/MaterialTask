@@ -1,0 +1,256 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.primary{
+  z-index: 100;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+.rocket{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px;
+  
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 14px;
+  top: 8px;
+  z-index: 100;
+  
+  background: #ffffff;
+  border-radius: 8px;
+}
+  
+.headertext{
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 80px;
+    top: 21px;
+    z-index: 100;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+   
+    color: #FFFFFF;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.date1{
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  right: 320px;
+  top: 28px;
+  z-index: 100;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  
+  
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase; 
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
+  
+  color: #FFFFFF;
+}
+
+.profile{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 1120px;
+  top: 20px;
+  border-radius: 20px;
+  z-index: 100;
+  
+  background: white;
+}
+
+.name{
+  position: absolute;
+  width: 105px;
+  height: 16px;
+  right:110px;
+  top:28px;
+  z-index: 100;
+  
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  
+  /* align-items: center; */
+  text-align: center;
+  /* letter-spacing: 1.25px; */
+  text-transform: uppercase; 
+  /* clear: both; */
+  /* display: inline-block;
+  white-space: nowrap; */
+  
+  color: #FFFFFF;
+  
+}
+
+.sidenav {
+  width:200px; 
+  background-color: #3f51b5;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  position:static;
+  height:700px;
+  z-index: 100;
+}
+
+.icon{
+  color:#ffffff;
+  margin-left: 30px;
+  margin-top:10px;
+}
+
+.icontext{
+  position: absolute;
+  color:#ffffff;
+  margin-left: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+  top:16px
+}
+
+.maintainicon{
+  color:#ffffff;
+  margin-left: 30px;
+  margin-top:10px;
+}
+
+.maintainicontext{
+  position: absolute;
+  color:#ffffff;
+  margin-left: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+  top: 54px;
+}
+
+.toprectangle{
+  position: absolute;
+  top:65px;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.11);
+}
+
+.tab1{
+  position: absolute;
+  left: 220px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  line-height:16px;
+
+}
+
+.tabtext{
+background-color:#3f51b5 ;
+color: white
+}
+
+.centertext{
+position:absolute;
+z-index: 100;
+left: 245px;
+top:165px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+
+color: #242731;
+}
+
+.master{
+position: absolute;
+width: 10px;
+height: 1px;
+left: 900px;
+top: 179px;
+z-index: 100;
+background-color: white;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.dateinput{
+position: absolute;
+width: 200px;
+height: 10px;
+left: 1130px;
+top: 138px;
+z-index:100;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* Light / Black */
+
+color: #11263C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.centerbox{
+position: absolute;
+width: 1000px;
+height: 500px;
+left: 245px;
+top: 249px;
+z-index: 100;
+
+background: #FFFFFF;
+border: 1px solid #D0D0D0;
+box-sizing: border-box;
+box-shadow: 0px 18.4406px 64.542px rgba(86, 89, 146, 0.1);
+border-radius: 9.22028px;
+}
+
